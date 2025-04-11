@@ -91,8 +91,8 @@ $mahasiswa = [
             </li>
             <li>Nama : <?= $mhs["nama"]; ?></li>
             <li>NRP : <?= $mhs["nrp"]; ?></li>
-            <li>Email : <?= $mhs["jurusan"]; ?></li>
-            <li>Jurusan : <?= $mhs["email"]; ?></li>
+            <li>Email : <?= $mhs["email"]; ?></li>
+            <li>Jurusan : <?= $mhs["jurusan"]; ?></li>
         </ul>
     <?php endforeach; ?>
 </body>
